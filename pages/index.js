@@ -6,6 +6,7 @@ import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import {useFormik} from "formik";
 import Head from "next/head";
+import s from './styles/index.module.css'
 
 export default function Index() {
     const formik = useFormik({
