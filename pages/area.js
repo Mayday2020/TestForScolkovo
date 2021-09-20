@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import {MainLayout} from "../components/MainLayout";
-import {useState, useEffect} from 'react'
 
 export default function Area( { charts } ) {
     return (
